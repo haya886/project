@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Menfess Curhat</title>
+  <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/10261/10261469.png" />
+
+  <link rel="stylesheet" href="projek_css.css" />
+</head>
+<body>
+  <header>
+    <h1>💬 Menfess Curhat</h1>
+    <p>Curhat bebas tanpa takut dihakimi. Anonim dan suportif ✨</p>
+  </header>
+
+  <main>
+    <section class="form-curhat">
+      <textarea id="curhatInput" placeholder="Tulis curhat kamu di sini..."></textarea>
+      <button onclick="kirimCurhat()">Kirim Curhat</button>
+     <p id="statusMsg"></p>
+    </section>
+
+    <footer>
+  <h3>📍 Tentang Kami</h3>
+  <p>
+    Alamat Kantor Konsultasi:<br>
+    Jl. Anggrek II Blok F, Kec. Manggala Raya,<br>
+    Kota Tangerang – Banten
+  </p>
+</footer>
+    <section class="daftar-curhat" id="daftarCurhat">
+      <!-- Curhatan akan muncul di sini -->
+    </section>
+  </main>
+
+  <script src="projek_js.js"></script>
+</body>
+</html>
